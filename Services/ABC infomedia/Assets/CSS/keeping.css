@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif
+}
+body { 
+    background: url(../Images/back.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+.head h1{
+    margin-top: 3%;
+    text-align: center;
+    color: Black;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+.head
+{
+    margin-top: 7%;
+}
+
+@media only screen and (max-width:768px)
+{
+ .head
+ {
+     margin-top: 30%;
+ }
+}
+.services{
+    margin-top:80px;
+}
+.container{
+    margin-top: 5px;
+    padding: 3px;
+    display:-ms-grid;
+}
+.grid-wrapper, .services-content{
+    flex-basis: 50%;
+}
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, auto));
+    grid-gap: 2%;
+    padding: 2%;
+    animation: scaleup 6s ease-in-out infinite;
+}
+@keyframes scaleup{
+    0%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+.grid-box{
+    height: 200px;
+    padding: 1rem;
+    text-align: center;
+    border-radius:5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.438);
+}
+.grid-box h1{
+    color: whitesmoke;
+    font-weight: 500;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    padding: 12px;
+    font-size: 50px;
+    border-radius:50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.journal{
+    background: #1E90FF;
+}
+.cashaccrual{
+    background: #1E90FF;
+    margin-top: 30px;
+}
+.ledger{
+    background: #1E90FF;
+}
+.Chart{
+    background: #1E90FF;
+    margin-top: 30px;
+}
+.services-content{
+    margin-top: 0px;
+    margin-left:5px;
+    padding: 1%;
+    position: relative;
+}
+.services-content h1{
+    font-size: 6vmin;
+    margin-bottom: 30px;
+    margin-top: 6%;
+    margin-left:6%;
+    Text-align: center;
+    text-shadow: 0 2px white, 0 3px #777;
+}
+.services-content p{
+    margin-top: 1%;
+    padding-right: 3%
+}
+
+.card1 p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius:50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.card1:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+@keyframes mymove{
+    from{left: -15px;}
+    to{left: 40px;}
+}
+ 
+
+@media only screen and (max-width:768px)
+{
+    .services-content
+    {
+        margin-top: 90px;
+    }
+}
