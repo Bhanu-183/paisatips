@@ -30,16 +30,16 @@
   <title>PaisaTips | Home</title>
 </head>
 <style>
-.cd-top{
-       
+  .cd-top {
+
     padding: 17px;
     background-color: #007bff;
     position: fixed;
     bottom: 25px;
     right: 25px;
     border-radius: 5px;
-   
-}
+
+  }
 </style>
 
 <body>
@@ -225,7 +225,8 @@
               <br /><br />Our company is your one stop solution for all needs. There is no doubt that we are the leaders
               and you don't have to worry about our image because it is perfect.
             </p>
-            <a class="btn mt-4 btn-primary contact-link read-more" href="./Services/ABC infomedia/Servies.html" role="button">Read More</a>
+            <a class="btn mt-4 btn-primary contact-link read-more" href="./Services/ABC infomedia/Servies.html"
+              role="button">Read More</a>
           </div>
         </div>
         <div class="col-md-6 align-self-center" data-aos="zoom-in">
@@ -277,52 +278,65 @@
   </div>
   <script>
     $(window).scroll(startCounter);
+
     function startCounter() {
       if ($(window).scrollTop() > 1400) {
         $(window).off("scroll", startCounter);
         $('.awards').each(function () {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function () {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
         $('.projects').each(function () {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function () {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
         $('.reviews').each(function () {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function () {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
         $('.years').each(function () {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function () {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
       }
     }
@@ -534,7 +548,7 @@
     </center>
   </footer>
   <a href="#" class="cd-top text-replace js-cd-top"><i style="color:white;" class="fas fa-chevron-up"></i></a>
-<script src="util.js"></script>
+  <script src="util.js"></script>
   <script src="main.js"></script>
   <!--footers ends here-->
   <script src="./scripts.js"></script>

@@ -1,17 +1,24 @@
-<?php 
-if(isset($_POST['submit'])){
-    $to = "bhanukrishnaprasad3333@gmail.com"; 
-    $from = $_POST['email']; 
+<?php
+if (isset($_POST['submit'])) {
+    $to = "pradeepparmar8949@gmail.com";
+    $from = $_POST['email'];
     $name = $_POST['name'];
     $subject = $_POST['subject'];
-    $message = $name ."\nSubject : ". $subject. " \nMassege:" . "\n" . $_POST['message'];
+    $message = " Name: " . $name . "\nSubject : " . $subject . " \nMassege:" . "\n" . $_POST['message'];
     $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2);
-    echo "<script>alert('Your query is succesfully sent');
-        window.location.href='contact.html';  
-        </script>";
- 
+    "From:" . $to;
+    $mail_status =  mail($to, $subject, $message, $headers);
+
+    if ($mail_status) {
+        echo '<script>swal({
+        title: "Message Sent",
+        text: "Your message can be sent",
+        type: "success"
+    }).then(function() {
+        window.location = "contact.html";
+    });
+     </script>';
+    } else {
+        echo '<script>swal("Message Not Sent");</script>';
+    }
 }
-?>

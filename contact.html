@@ -20,13 +20,13 @@
 </head>
 <style>
   .back-to-top {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-     
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+
   }
-  </style>
-  
+</style>
+
 <body>
   <div class="sub-header">
     <div class="container">
@@ -160,29 +160,29 @@
                   <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message"
                     required></textarea>
                 </div>
-				
-				<div class="center container mt-4" style="margin-bottom:30px;">
+
+                <div class="center container mt-4" style="margin-bottom:30px;">
                   <h2 id="captchaHeading" class="text-center mt-4">Captcha Validation</h2>
                   <div id="captchaBackground">
                     <canvas id="captcha" class="white-text">captcha text</canvas>
                     <input id="textBox" type="text" name="text" required>
                     <div id="buttons">
-                    <form id="captch">
-                      <button id="submitButton" type="button" value="Submit">Submit</button>
-                      <button id="refreshButton" type="button">Refresh</button>
-                    </form>
+                      <form id="captch">
+                        <button id="submitButton" type="button" value="Submit">Submit</button>
+                        <button id="refreshButton" type="button">Refresh</button>
+                      </form>
                     </div>
                     <span id="output" class="white-text"></span>
                   </div>
                 </div>
-				    <script src="cap.js"></script>
-				
-              
+                <script src="cap.js"></script>
+
+
                 <div class="col-lg-12 mt-5">
                   <fieldset>
-                    <center><button type="submit" id="form-submit" 
-                        class="btn btn-outline-light contact-btn mt-4" >
-                      Send Message
+                    <center><button type="submit" id="form-submit" name="submit"
+                        class="btn btn-outline-light contact-btn mt-4">
+                        Send Message
                       </button></center>
                   </fieldset>
                 </div>
@@ -200,10 +200,11 @@
       width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
 
-  <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+  <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i
+      class="fas fa-chevron-up"></i></a>
   <script>
-    $(document).ready(function(){
-    $(window).scroll(function () {
+    $(document).ready(function () {
+      $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
           $('#back-to-top').fadeIn();
         } else {
@@ -217,7 +218,7 @@
         }, 400);
         return false;
       });
-  });
+    });
   </script>
   <footer class="footer">
     <div class="container">

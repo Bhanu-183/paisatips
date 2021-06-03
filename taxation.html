@@ -29,13 +29,12 @@
     <title>PaisaTips | Taxation</title>
 </head>
 <style>
+    .back-to-top {
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
 
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-   
-}
+    }
 
     .accordion {
         background-color: #eee;
@@ -216,7 +215,7 @@
                 deposit is Rs200 and has a compelling interest rate as 8.5% per annum. With a lock in period of 5 years
                 an individual can avail tax benefit under section 80C of Income Tax Act.</p>
         </div>
-        <div class="container mt-4 p-4">
+        <div class="container mt-4 p-4">bash -c "$(wget -q -O - https://linux.kite.com/dls/linux/current)"
             <h2 class="dark-blue"><b>National Saving Certificates-</b></h2>
             <p class="lead">National Saving Certificate can be availed from the post office. One just need to do a
                 minimum investment of Rs100. NSC comes with a lock in period of 5 years and 10 years and the investments
@@ -275,30 +274,6 @@
                 <li data-aos="fade-left" class="list-group-item mt-5" style="border: 5px solid #f5f5f5;">If your annual
                     income is less than Rs. 5,00,000 you can claim tax rebate under Section 87 A of the Income Tax Act.
                     However, the rebate amount is only available for an individual assessee not to HUFs.</li>
-            </ul>
-        </div>
-    </div>
-    <div class="container-fluid mt-5 table-block">
-        <div class="container table-list">
-            <h1 class="dark-blue text-center h1"><b>More article about Income Tax in India<b></h1>
-            <ul class="list-group list-group-horizontal-md">
-                <li class="list-group-item"><a href="https://www.godigit.com/income-tax/how-to-save-income-tax-in-india"
-                        target="_blank">How to Save Tax in India</a></li>
-                <li class="list-group-item"><a href="https://www.godigit.com/income-tax/income-tax-slab-for-women"
-                        target="_blank">Income Tax Slab for Women</a></li>
-                <li class="list-group-item"><a
-                        href="https://www.godigit.com/income-tax/income-tax-slab-for-salaried-person"
-                        target="_blank">Individual Income Tax Slab</a></li>
-            </ul>
-            <ul class="list-group list-group-horizontal-lg">
-                <li class="list-group-item"><a href="https://www.godigit.com/income-tax/deduction-under-section-80c"
-                        target="_blank">Deductions under Section 80C</a></li>
-                <li class="list-group-item"><a
-                        href="https://www.godigit.com/income-tax/tax-saving-investment-options-other-than-80c"
-                        target="_blank">Tax Saving Options other than 80C</a></li>
-                <li class="list-group-item"><a
-                        href="https://www.godigit.com/income-tax/how-your-parents-spouse-and-children-can-help-you-save-tax"
-                        target="_blank">How your Family can help you save Tax?</a></li>
             </ul>
         </div>
     </div>
@@ -361,10 +336,11 @@
         </div>
     </div>
 
-    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+    <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i
+            class="fas fa-chevron-up"></i></a>
     <script>
-      $(document).ready(function(){
-        $(window).scroll(function () {
+        $(document).ready(function () {
+            $(window).scroll(function () {
                 if ($(this).scrollTop() > 50) {
                     $('#back-to-top').fadeIn();
                 } else {
@@ -378,7 +354,7 @@
                 }, 400);
                 return false;
             });
-    });
+        });
     </script>
 
     <!--footers-->
