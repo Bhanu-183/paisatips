@@ -1,3 +1,5 @@
+
+
 <html lang="en">
 
 <head>
@@ -22,7 +24,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
 
-  <link rel="stylesheet" href="./Assets/CSS/style.css" />
+   <link rel="stylesheet" href="./Assets/CSS/style.css" />
   <script src="https://kit.fontawesome.com/0f1f570846.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="./Captcha/Captcha/cap.css">
@@ -389,22 +391,8 @@
     <br>
   </div>
 
-  <?php
-  $display = True;
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $to = "bhanukrishnaprasad3333@gmail.com";
-    $from = $_POST['email'];
-    $subject = 'Service Review';
-    $name = $_POST['name'];
-    $number = $_POST['number'];
-    $star = $_POST['star'];
-    $message = " Name: " . $name . "\n Number: " . $number . "\nStar:" . $star . "\nReview:" . "\n" . $_POST['review'];
-    $headers = "From:" . $from;
-    "From:" . $to;
-    $mail_status =  mail($to, $subject, $message, $headers);
-    $display = false;
-  }
-  if ($display) {
+<?php  
+  if ($_COOKIE['Sendmail'] == false ) {
   ?>
     <div class="container-fluid review">
       <div class="container">
@@ -416,7 +404,7 @@
           </div>
           <div class="col-md-12 review-form">
             <div>
-              <form id="review" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
+              <form id="review" action="send-review.php" method="POST">
                 <div class="row">
 
 
@@ -468,7 +456,7 @@
                       <span id="output"></span>
                     </div>
                   </div>
-                  <script src="./cap.js"></script>
+                  <script src="cap.js"></script>
                   <div class="col-lg-12 mt-5">
                     <fieldset>
                       <center><button type="submit" id="form-submit" name="submit" class="btn btn-outline-light contact-btn mt-4" />
@@ -486,13 +474,7 @@
   <?php
   } else {
   ?>
-    <script>
-      swal({
-        title: "Your review has been sent!!",
-        text: "Thank you for your response",
-        type: "success"
-      });
-    </script>
+   
     <div class="container pt-4 text-center" style="margin-top:4%;
   margin-bottom:4%;">
       <h1 class="text-success">Thank you!!</h1>
@@ -501,7 +483,7 @@
       </div>
     </div>
   <?php
-  }
+   }
   ?>
 
 
@@ -574,3 +556,5 @@
 </body>
 
 </html>
+
+
