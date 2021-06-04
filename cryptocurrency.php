@@ -54,7 +54,7 @@
 	<header class="">
 		<nav class="navbar navbar-expand-lg sticky-top ">
 			<div class="container">
-				<a class="navbar-brand" href="home.html">
+				<a class="navbar-brand" href="index.php">
 					<h2>Paisa <span style="color: dodgerblue;">Tips</span></h2>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,7 +63,7 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="home.html">Home
+							<a class="nav-link" href="index.php">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
@@ -331,7 +331,7 @@
 					<div class="footer-col">
 						<h4>Quick Links</h4>
 						<ul>
-							<li><a href="./home.html">Home</a></li><br>
+							<li><a href="./index.php">Home</a></li><br>
 							<li><a href="#">About Us</a></li><br>
 							<li><a href="./Servies.html">Our Services</a></li><br>
 							<li><a href="./contact.html">Contact Us</a></li><br>

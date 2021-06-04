@@ -28,6 +28,18 @@
   <link rel="stylesheet" href="./Captcha/Captcha/cap.css">
   <title>PaisaTips | Home</title>
 </head>
+<style>
+  .cd-top {
+
+    padding: 17px;
+    background-color: #007bff;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 5px;
+
+  }
+</style>
 
 <body>
   <!-- Nav Bar -->
@@ -56,7 +68,7 @@
   <header class="">
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="home.html">
+        <a class="navbar-brand" href="index.php">
           <h2>Paisa <span class="dodger-blue">Tips</span></h2>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +77,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="home.html">
+              <a class="nav-link" href="index.php">
                 Home
               </a>
             </li>
@@ -477,13 +489,21 @@
     <script>
       swal({
         title: "Your review has been sent!!",
-        text: "We’d just like to thank you for taking the time to write this review.",
+        text: "Thank you for your response",
         type: "success"
       });
     </script>
+    <div class="container pt-4 text-center" style="margin-top:4%;
+  margin-bottom:4%;">
+      <h1 class="text-success">Thank you!!</h1>
+      <div class="container dodger-blue success-msg mt-4">
+        <h2>We’d just like to thank you for taking the time to write this review.Every bit of feedback like this does so much to help us out!</h2>
+      </div>
+    </div>
   <?php
   }
   ?>
+
 
 
   <!--footers-->
@@ -520,7 +540,7 @@
         <div class="footer-col">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="./home.html">Home</a></li><br>
+            <li><a href="./index.php">Home</a></li><br>
             <li><a href="./About Us/about-us.html">About Us</a></li><br>
             <li><a href="./Services/ABC infomedia/Servies.html">Our Services</a></li><br>
             <li><a href="./contact.html">Contact Us</a></li><br>
