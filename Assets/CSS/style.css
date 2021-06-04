@@ -698,8 +698,13 @@ ul {
   display: none;
 }
 
-
-
-
+.cd-top {
+    padding: 17px;
+    background-color: #007bff;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 5px;
+  }
 
 

@@ -18,13 +18,13 @@
 
 </head>
 
-	<style>
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-   
-}
+<style>
+	.back-to-top {
+		position: fixed;
+		bottom: 25px;
+		right: 25px;
+
+	}
 
 	.main-content {
 		background-color: #f1f5f8;
@@ -69,7 +69,7 @@
 	<header class="">
 		<nav class="navbar navbar-expand-lg sticky-top ">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="home.html">
 					<h2>Paisa <span style="color: dodgerblue;">Tips</span></h2>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,7 +78,7 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home
+							<a class="nav-link" href="home.html">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
@@ -325,26 +325,26 @@
 
 	</div>
 	</div>
-	
+
 	<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-<script>
-  $(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
+	<script>
+		$(document).ready(function() {
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 50) {
+					$('#back-to-top').fadeIn();
+				} else {
+					$('#back-to-top').fadeOut();
+				}
+			});
+			// scroll body to 0px on click
+			$('#back-to-top').click(function() {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 400);
+				return false;
+			});
 		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-});
-</script>
+	</script>
 	<!--footers-->
 	<footer class="footer">
 		<div class="container">
@@ -379,7 +379,7 @@
 				<div class="footer-col">
 					<h4>Quick Links</h4>
 					<ul>
-						<li><a href="./index.html">Home</a></li><br>
+						<li><a href="./home.html">Home</a></li><br>
 						<li><a href="./About Us/about-us.html">About Us</a></li><br>
 						<li><a href="./Services/ABC infomedia/Servies.html">Our Services</a></li><br>
 						<li><a href="./contact.html">Contact Us</a></li><br>
