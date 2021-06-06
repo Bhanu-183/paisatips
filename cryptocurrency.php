@@ -18,16 +18,17 @@
 
 </head>
 <style>
-.back-to-top {
-    position: fixed;
-    bottom: 25px;
-    right: 25px;
-   
-}
+	.back-to-top {
+		position: fixed;
+		bottom: 25px;
+		right: 25px;
+
+	}
 </style>
+
 <body>
 
-		<div class="sub-header">
+	<div class="sub-header">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-xs-12">
@@ -53,7 +54,7 @@
 	<header class="">
 		<nav class="navbar navbar-expand-lg sticky-top ">
 			<div class="container">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<h2>Paisa <span style="color: dodgerblue;">Tips</span></h2>
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +63,7 @@
 				<div class="collapse navbar-collapse" id="navbarResponsive">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="index.html">Home
+							<a class="nav-link" href="index.php">Home
 								<span class="sr-only">(current)</span>
 							</a>
 						</li>
@@ -81,21 +82,21 @@
 		</nav>
 	</header>
 	<div class="clear"></div>
-	
+
 
 	<div class="cryptocurrency-info">
 		<div class="container">
 			<div class="row">
-			
+
 				<div class="col-md-12 main-image">
-					<img  src="./Assets/Images/backcryptoc.png" alt="market analysis"></img> 
+					<img src="./Assets/Images/backcryptoc.png" alt="market analysis"></img>
 				</div>
 
-				
+
 				<div class="col-md-6">
 					<img class="img-side" src="./Assets/Images/cryptocurrency.jpg" alt="market analysis">
-				</div> 
-				
+				</div>
+
 
 				<div class="col-md-6">
 					<div class="crpto-about">
@@ -103,137 +104,137 @@
 						<p style="font-size: 18px;">A cryptocurrency is a digital or virtual currency that is secured by cryptography, which makes it nearly impossible to counterfeit or double-spend. Many cryptocurrencies are decentralized networks based on blockchain technology a distributed ledger enforced by a disparate network of computers. Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security.</p>
 					</div>
 				</div>
-				</div>
+			</div>
 
+		</div>
+	</div>
+
+
+	<div class="">
+		<div class="container">
+			` <div class="row">
+
+				<div class="main-crypto">
+
+					<div class="share-tips">
+						<h3 class="share-heading" style="color:white">Best Cryptocurrencies To Buy In 2021</h3>
+					</div>
+
+					<div data-aos="fade-right">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>1</span>Bitcoin</h4>
+								<p>The king of all cryptocurrencies, Bitcoin, is the first of its kind to have the highest liquidity value. This cryptocurrency aims at becoming a fully decentralized, global, peer-to-peer digital cash with no regulations.</p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-left">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>2</span>Litecoin</h4>
+								<p>Litecoin comes second on our list because of its market capital and liquidity value. Unlike Bitcoin’s 21 million supply, Litecoin is limited to 84 million coins with a block reward of 12.5 LTC, higher than other cryptos.</p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-right">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>3</span>Ethereum</h4>
+								<p>Ethereum was the first cryptocurrency to introduce smart contracts that allow developers to create desktop and mobile decentralized applications powered by blockchain technology. Ethereum has maintained its position in the top cryptocurrencies of all time ever since and has a loyal team of investors who vouch for this cryptocurrency. </p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-left">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>4</span>Cardano</h4>
+								<p>This is an affordable cryptocurrency that is becoming a cult favorite at a rapid pace. Since its inception in 2015, it has become a strong player in the market with its Ouroboros blockchain, which means having two blockchains instead of one. Here, one blockchain will manage general ordinary transactions while the other will manage smart contracts. </p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-right">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>5</span>Binance Coin</h4>
+								<p>If you own either Bitcoins or Ethereums and want to diversify your portfolio, look no further than Binance Coin. The parent company, Binance, has a strong business history that has created a useful ‘utility token’. The value of Binance Coin comes from its usefulness and its demand which is for traders to use Binance Coins to buy other cryptocurrencies on Binance Exchange.</p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-left">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>6</span>Ripple</h4>
+								<p>Ripple gets a mention in this list because its vision is a little different from the rest of the cryptocurrencies on this list. Ripple is a venture-backed startup that is known to offer finance settlement services to banks in a way to facilitate transactions directly and instantly across national borders. Over the years, it has collaborated with large banks globally including the Bank of America. </p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-right">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>7</span>Dogecoin</h4>
+								<p>First, Redditors spiked the price to new heights in early 2021 as a way to prevent the speculated short-selling of Dogecoins by many Wall Street hedge funds. And then, Elon Musk called himself the “Dogefather” promoting this cryptocurrency further. While many argue the legitimacy of this coin, Dogecoin continues to have its share of market value. In April 2021, Dogecoin hit its all-time high of $0.2917.</p>
+
+							</div>
+						</div>
+					</div>
+
+
+					<div data-aos="fade-left">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>8</span>TRON</h4>
+								<p>Did you know Tron was actually founded on Ethereum in 2017? Now with its own blockchain platform, TRON is an independent cryptocurrency that also uses the Proof of Stake algorithm to process transactions. At present, Tron has a market capitalization of $4,406,488,234 which is expected to increase. Compared to Ethereum, this crypto coin hosts more decentralized apps, which is what is making it increasingly popular. </p>
+
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="fade-right">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>9</span>Bitcoin Cash</h4>
+								<p>Speculations around Bitcoin’s scalability gave rise to Bitcoin Cash, a peer-to-peer electronic cash system that is supremely scalable. It has a market cap of $8,993,553,011, one of the biggest out of the lot. With the name Bitcoin attached to it, Bitcoin Cash is one of the most-eyed cryptocurrencies by big-time investors.</p>
+
+							</div>
+						</div>
+					</div>
+
+
+					<div data-aos="fade-left">
+						<div class="col-md-6 why-currency">
+							<div class="why-cryppto">
+								<h4><span>10</span>Zcash</h4>
+								<p>Zcash can do what Bitcoin cannot. The blockchain that Bitcoin uses is transparent which makes tracking transactions easier but Zcash only allows transaction tracking if the user wants them to be tracked. This means users have the option to hide their transactions for an added layer of privacy </p>
+
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
 			</div>
 		</div>
-		
-		
-		<div class="">
-			<div class="container">
-			`	<div class="row">
-	
-			<div class="main-crypto">
-
-				<div class="share-tips">
-					<h3 class="share-heading" style="color:white">Best Cryptocurrencies To Buy In 2021</h3>
-				</div>
-				
-				<div data-aos="fade-right">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>1</span>Bitcoin</h4>
-						<p>The king of all cryptocurrencies, Bitcoin, is the first of its kind to have the highest liquidity value. This cryptocurrency aims at becoming a fully decentralized, global, peer-to-peer digital cash with no regulations.</p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-left">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>2</span>Litecoin</h4>
-						<p>Litecoin comes second on our list because of its market capital and liquidity value. Unlike Bitcoin’s 21 million supply, Litecoin is limited to 84 million coins with a block reward of 12.5 LTC, higher than other cryptos.</p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-right">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>3</span>Ethereum</h4>
-						<p>Ethereum was the first cryptocurrency to introduce smart contracts that allow developers to create desktop and mobile decentralized applications powered by blockchain technology. Ethereum has maintained its position in the top cryptocurrencies of all time ever since and has a loyal team of investors who vouch for this cryptocurrency. </p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-left">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>4</span>Cardano</h4>
-						<p>This is an affordable cryptocurrency that is becoming a cult favorite at a rapid pace. Since its inception in 2015, it has become a strong player in the market with its Ouroboros blockchain, which means having two blockchains instead of one. Here, one blockchain will manage general ordinary transactions while the other will manage smart contracts. </p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-right">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>5</span>Binance Coin</h4>
-						<p>If you own either Bitcoins or Ethereums and want to diversify your portfolio, look no further than Binance Coin. The parent company, Binance, has a strong business history that has created a useful ‘utility token’. The value of Binance Coin comes from its usefulness and its demand which is for traders to use Binance Coins to buy other cryptocurrencies on Binance Exchange.</p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-left">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>6</span>Ripple</h4>
-						<p>Ripple gets a mention in this list because its vision is a little different from the rest of the cryptocurrencies on this list. Ripple is a venture-backed startup that is known to offer finance settlement services to banks in a way to facilitate transactions directly and instantly across national borders. Over the years, it has collaborated with large banks globally including the Bank of America.  </p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-right">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>7</span>Dogecoin</h4>
-						<p>First, Redditors spiked the price to new heights in early 2021 as a way to prevent the speculated short-selling of Dogecoins by many Wall Street hedge funds. And then, Elon Musk called himself the “Dogefather” promoting this cryptocurrency further. While many argue the legitimacy of this coin, Dogecoin continues to have its share of market value. In April 2021, Dogecoin hit its all-time high of $0.2917.</p>
-						
-					</div>
-				</div>
-				</div>
-				
-				
-				<div data-aos="fade-left">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>8</span>TRON</h4>
-						<p>Did you know Tron was actually founded on Ethereum in 2017? Now with its own blockchain platform, TRON is an independent cryptocurrency that also uses the Proof of Stake algorithm to process transactions. At present, Tron has a market capitalization of $4,406,488,234 which is expected to increase. Compared to Ethereum, this crypto coin hosts more decentralized apps, which is what is making it increasingly popular. </p>
-						
-					</div>
-				</div>
-				</div>
-				
-				<div data-aos="fade-right">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>9</span>Bitcoin Cash</h4>
-						<p>Speculations around Bitcoin’s scalability gave rise to Bitcoin Cash, a peer-to-peer electronic cash system that is supremely scalable. It has a market cap of $8,993,553,011, one of the biggest out of the lot. With the name Bitcoin attached to it, Bitcoin Cash is one of the most-eyed cryptocurrencies by big-time investors.</p>
-						
-					</div>
-				</div>
-				</div>
-				
-				
-				<div data-aos="fade-left">
-				<div class="col-md-6 why-currency">
-					<div class="why-cryppto">
-						<h4><span>10</span>Zcash</h4>
-						<p>Zcash can do what Bitcoin cannot. The blockchain that Bitcoin uses is transparent which makes tracking transactions easier but Zcash only allows transaction tracking if the user wants them to be tracked. This means users have the option to hide their transactions for an added layer of privacy </p>
-						
-					</div>
-				</div>
-				</div>
+	</div>
 
 
-
-			</div>
-		</div>
-		</div>
-		</div>
-
-		
-		<div class="invest-tips">
+	<div class="invest-tips">
 		<div class="container">
 
 			<div class="Safely-tips">
-				<h3 class="share-heading">4 Tips to Invest in Cryptocurrency Safely	</h3>
+				<h3 class="share-heading">4 Tips to Invest in Cryptocurrency Safely </h3>
 			</div>
 
 			<div data-aos="fade-right">
@@ -271,98 +272,99 @@
 					</div>
 				</div>
 			</div>
-		</div>	
-		
+		</div>
+
 		<?php
 		include 'crypto-graph.php';
 		?>
-		
-		<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-<script>
-  $(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
-		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-});
-</script>
-		<!--footers-->
-	<footer class="footer">
-		<div class="container">
-			<div class="row footer-row">
-				<div class="footer-col">
-					<h4>PAISA TIPS</h4>
-					<ul>
-						<li>
-							<style font-color:white;></style>You can find us here!</style>
-						</li><br>
-					</ul>
-					<div class="social-icons">
-						<a href="https://www.facebook.com/abcinfomediapvtltd/"><i class="fab fa-facebook-f"></i></a>
-						<a href="https://twitter.com/abc_infomedia"><i class="fab fa-twitter"></i></a>
-						<a href="https://www.linkedin.com/in/abcinfomedia/"><i class="fab fa-linkedin"></i></a>
-						<a href="https://www.youtube.com/channel/UCa5hWmytEVKaeyqI_jpgAlw?view_as=subscriber"><i class="fab fa-youtube"></i></a>
-						<a href="https://in.pinterest.com/abcinfomediapvtltd/?autologin=true"><i class="fab fa-pinterest"></i></a><br><br>
 
+		<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+		<script>
+			$(document).ready(function() {
+				$(window).scroll(function() {
+					if ($(this).scrollTop() > 50) {
+						$('#back-to-top').fadeIn();
+					} else {
+						$('#back-to-top').fadeOut();
+					}
+				});
+				// scroll body to 0px on click
+				$('#back-to-top').click(function() {
+					$('body,html').animate({
+						scrollTop: 0
+					}, 400);
+					return false;
+				});
+			});
+		</script>
+		<!--footers-->
+		<footer class="footer">
+			<div class="container">
+				<div class="row footer-row">
+					<div class="footer-col">
+						<h4>PAISA TIPS</h4>
+						<ul>
+							<li>
+								<style font-color:white;></style>You can find us here!</style>
+							</li><br>
+						</ul>
+						<div class="social-icons">
+							<a href="https://www.facebook.com/abcinfomediapvtltd/"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://twitter.com/abc_infomedia"><i class="fab fa-twitter"></i></a>
+							<a href="https://www.linkedin.com/in/abcinfomedia/"><i class="fab fa-linkedin"></i></a>
+							<a href="https://www.youtube.com/channel/UCa5hWmytEVKaeyqI_jpgAlw?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+							<a href="https://in.pinterest.com/abcinfomediapvtltd/?autologin=true"><i class="fab fa-pinterest"></i></a><br><br>
+
+						</div>
+					</div>
+					<div class="footer-col">
+						<h4>Services</h4>
+						<ul>
+							<li><a href="./market.php">Market Analysis</a></li><br>
+							<li><a href="./finance.html">Financial Data</a></li><br>
+							<li><a href="./cryptocurrency.php">Cryptocurrency</a></li><br>
+
+							<li><a href="./Services/ABC infomedia/accounting.html">Accounting Services</a></li><br>
+							<li><a href="./taxation.html">Taxation</a></li><br>
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>Quick Links</h4>
+						<ul>
+							<li><a href="./index.php">Home</a></li><br>
+							<li><a href="#">About Us</a></li><br>
+							<li><a href="./Servies.html">Our Services</a></li><br>
+							<li><a href="./contact.html">Contact Us</a></li><br>
+							<li><a href="./blog.html">Blogs</a></li><br>
+
+
+						</ul>
+					</div>
+					<div class="footer-col">
+						<h4>FAQ</h4>
+						<ul>
+							<li><a href="./FAQ.html">Best ways to separate business & personal finances?</a></li><br>
+							<li><a href="./FAQ.html">What makes you different than others?</a></li><br>
+							<li><a href="./FAQ.html">What does the monthly accounting process look like?</a></li><br>
+							<li><a href="./FAQ.html">What accounting system do you use?</a></li><br>
+						</ul>
 					</div>
 				</div>
-				<div class="footer-col">
-					<h4>Services</h4>
-					<ul>
-						<li><a href="./market.php">Market Analysis</a></li><br>
-						<li><a href="./finance.html">Financial Data</a></li><br>
-						<li><a href="./cryptocurrency.php">Cryptocurrency</a></li><br>
-
-						<li><a href="./Services/ABC infomedia/accounting.html">Accounting Services</a></li><br>
-						<li><a href="./taxation.html">Taxation</a></li><br>
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>Quick Links</h4>
-					<ul>
-						<li><a href="./index.html">Home</a></li><br>
-						<li><a href="#">About Us</a></li><br>
-						<li><a href="./Servies.html">Our Services</a></li><br>
-						<li><a href="./contact.html">Contact Us</a></li><br>
-						<li><a href="./blog.html">Blogs</a></li><br>
-
-
-					</ul>
-				</div>
-				<div class="footer-col">
-					<h4>FAQ</h4>
-					<ul>
-						<li><a href="./FAQ.html">Best ways to separate business & personal finances?</a></li><br>
-						<li><a href="./FAQ.html">What makes you different than others?</a></li><br>
-						<li><a href="./FAQ.html">What does the monthly accounting process look like?</a></li><br>
-						<li><a href="./FAQ.html">What accounting system do you use?</a></li><br>
-					</ul>
-				</div>
 			</div>
-		</div>
-		<center>
-			<p style="color:white;">Copyright © 2020 PAISA TIPS Co., Ltd. -</p>
-		</center>
-	</footer>
-	<!--footers ends here-->
-		
-		
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-	AOS.init({
-		duration: 1300,
-	});
-</script>
+			<center>
+				<p style="color:white;">Copyright © 2020 PAISA TIPS Co., Ltd. -</p>
+			</center>
+		</footer>
+		<!--footers ends here-->
+
+
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				duration: 1300,
+			});
+		</script>
 
 </body>
+
 </html>

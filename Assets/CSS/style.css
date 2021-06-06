@@ -698,7 +698,12 @@ ul {
   display: none;
 }
 
-
+.success-msg
+{
+  padding: 25px; 
+  border:2px solid #1e90ff;
+  border-radius:8px;
+}
 
 
 
