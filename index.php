@@ -1,3 +1,5 @@
+
+
 <html lang="en">
 
 <head>
@@ -5,41 +7,40 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Google fonts cdn -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet" />
   <!-- bootstrap 4 cdn -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <!-- Animations cdn -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link rel="stylesheet" href="./Assets/CSS/style.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+   <link rel="stylesheet" href="./Assets/CSS/style.css" />
   <script src="https://kit.fontawesome.com/0f1f570846.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="./Captcha/Captcha/cap.css">
   <title>PaisaTips | Home</title>
 </head>
 <style>
-.cd-top{
-       
+  .cd-top {
+
     padding: 17px;
     background-color: #007bff;
     position: fixed;
     bottom: 25px;
     right: 25px;
     border-radius: 5px;
-   
-}
+
+  }
 </style>
 
 <body>
@@ -49,24 +50,17 @@
       <div class="row">
         <div class="col-md-8 col-xs-12">
           <ul class="left-info">
-            <li><a href="#" style="text-decoration: none; pointer-events: none;"><i
-                  class="fa fa-clock-o font-awesome"></i>Mon-Sat 09:00-19:00</a></li>
-            <li><a href="#" style="text-decoration: none; pointer-events: none;"><i
-                  class="fa fa-phone font-awesome"></i>090-080-0760</a></li>
+            <li><a href="#" style="text-decoration: none; pointer-events: none;"><i class="fa fa-clock-o font-awesome"></i>Mon-Sat 09:00-19:00</a></li>
+            <li><a href="#" style="text-decoration: none; pointer-events: none;"><i class="fa fa-phone font-awesome"></i>090-080-0760</a></li>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="right-icons">
-            <li><a href="https://www.facebook.com/abcinfomediapvtltd/" target="_blank"><i
-                  class="fa fa-facebook font-awesome"></i></a></li>
-            <li><a href="https://twitter.com/abc_infomedia" target="_blank"><i
-                  class="fa fa-twitter font-awesome"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/abcinfomedia/" target="_blank"><i
-                  class="fa fa-linkedin font-awesome"></i></a></li>
-            <li><a href="https://www.youtube.com/channel/UCa5hWmytEVKaeyqI_jpgAlw?view_as=subscriber" target="_blank"><i
-                  class="fa fa-youtube font-awesome"></i></a></li>
-            <li><a href="https://in.pinterest.com/abcinfomediapvtltd/?autologin=true" target="_blank"><i
-                  class="fa fa-pinterest font-awesome"></i></a></li>
+            <li><a href="https://www.facebook.com/abcinfomediapvtltd/" target="_blank"><i class="fa fa-facebook font-awesome"></i></a></li>
+            <li><a href="https://twitter.com/abc_infomedia" target="_blank"><i class="fa fa-twitter font-awesome"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/abcinfomedia/" target="_blank"><i class="fa fa-linkedin font-awesome"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCa5hWmytEVKaeyqI_jpgAlw?view_as=subscriber" target="_blank"><i class="fa fa-youtube font-awesome"></i></a></li>
+            <li><a href="https://in.pinterest.com/abcinfomediapvtltd/?autologin=true" target="_blank"><i class="fa fa-pinterest font-awesome"></i></a></li>
           </ul>
         </div>
       </div>
@@ -76,17 +70,16 @@
   <header class="">
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <h2>Paisa <span class="dodger-blue">Tips</span></h2>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">
+              <a class="nav-link" href="index.php">
                 Home
               </a>
             </li>
@@ -277,52 +270,65 @@
   </div>
   <script>
     $(window).scroll(startCounter);
+
     function startCounter() {
       if ($(window).scrollTop() > 1400) {
         $(window).off("scroll", startCounter);
-        $('.awards').each(function () {
+        $('.awards').each(function() {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function() {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
-        $('.projects').each(function () {
+        $('.projects').each(function() {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function() {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
-        $('.reviews').each(function () {
+        $('.reviews').each(function() {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function() {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
-        $('.years').each(function () {
+        $('.years').each(function() {
           var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() },
-            {
-              duration: 1000,
-              easing: 'swing',
-              step: function () {
-                $this.text(Math.ceil(this.Counter));
-              }
-            });
+          jQuery({
+            Counter: 0
+          }).animate({
+            Counter: $this.text()
+          }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function() {
+              $this.text(Math.ceil(this.Counter));
+            }
+          });
         });
       }
     }
@@ -367,8 +373,7 @@
   </div>
   <div class="quotes container-fluid">
     <div class="slideshow-container container-fluid text-center" style="position: absolute;">
-      <div class="mySlides fade text-center" data-aos="slide-up"
-        style="margin-left: auto;margin-right: auto;display: block;">
+      <div class="mySlides fade text-center" data-aos="slide-up" style="margin-left: auto;margin-right: auto;display: block;">
         <p class="h4" style="text-align: center;">"Wow, I'm so happy with your service. You managed to exceed my
           expectations! You guys are very efficient"<br><br>-Louise Smith</p>
       </div>
@@ -386,89 +391,101 @@
     <br>
   </div>
 
-
-  <div class="container-fluid review">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="text-center" data-aos="fade-up">
-            <h1>Write a <span class="dodger-blue">Review</span></h1>
+<?php  
+  if ($_COOKIE['Sendmail'] == false ) {
+  ?>
+    <div class="container-fluid review">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center" data-aos="fade-up">
+              <h1>Write a <span class="dodger-blue">Review</span></h1>
+            </div>
           </div>
-        </div>
-        <div class="col-md-12 review-form">
-          <div>
-            <form id="review" action="send-review.php" method="POST">
-              <div class="row">
+          <div class="col-md-12 review-form">
+            <div>
+              <form id="review" action="send-review.php" method="POST">
+                <div class="row">
 
 
-                <div class="review-rating">
-                  <h6 class="starRate-text">Rate this</h6>
-                  <p style="font-size:15px;color:red;font-weight: bold;text-align: right;">*Required</p>
-                  <input id="star5" name="star" type="radio" value="5" class="radio-btn hide">
-                  <label for="star5">☆</label>
-                  <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
-                  <label for="star4">☆</label>
-                  <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
-                  <label for="star3">☆</label>
-                  <input id="star2" name="star" type="radio" value="2" class="radio-btn hide">
-                  <label for="star2">☆</label>
-                  <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" required>
-                  <label for="star1">☆</label>
-                </div>
+                  <div class="review-rating">
+                    <h6 class="starRate-text">Rate this</h6>
+                    <p style="font-size:15px;color:red;font-weight: bold;text-align: right;">*Required</p>
+                    <input id="star5" name="star" type="radio" value="5" class="radio-btn hide">
+                    <label for="star5">☆</label>
+                    <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
+                    <label for="star4">☆</label>
+                    <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
+                    <label for="star3">☆</label>
+                    <input id="star2" name="star" type="radio" value="2" class="radio-btn hide">
+                    <label for="star2">☆</label>
+                    <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" required>
+                    <label for="star1">☆</label>
+                  </div>
 
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control mt-4" id="name" placeholder="Full Name"
-                      required="" />
-                  </fieldset>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*"
-                      placeholder="E-Mail Address" required="" />
-                  </fieldset>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
-                  <fieldset>
-                    <input name="number" type="text" class="form-control" id="number" placeholder="Number"
-                      required="" />
-                  </fieldset>
-                </div>
-                <div class="col-lg-12">
-                  <fieldset>
-                    <textarea name="review" rows="6" class="form-control mt-4" id="message" placeholder="Your Review"
-                      required=""></textarea>
-                  </fieldset>
-                </div>
-                <div class="center container mt-4">
-                  <h2 id="captchaHeading" class="text-center mt-4">Captcha Validation</h2>
-                  <div id="captchaBackground">
-                    <canvas id="captcha" class="white-text">captcha text</canvas>
-                    <input id="textBox" type="text" name="text" required>
-                    <div id="buttons">
-                      <input id="submitButton" type="button" value="submit">
-                      <button id="refreshButton" type="button">Refresh</button>
+                  <div class="col-lg-4 col-md-12 col-sm-12">
+                    <fieldset>
+                      <input name="name" type="text" class="form-control mt-4" id="name" placeholder="Full Name" required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
+                    <fieldset>
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
+                    <fieldset>
+                      <input name="number" type="text" class="form-control" id="number" placeholder="Number" required="" />
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="review" rows="6" class="form-control mt-4" id="message" placeholder="Your Review" required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="center container mt-4">
+                    <h2 id="captchaHeading" class="text-center mt-4">Captcha Validation</h2>
+                    <div id="captchaBackground">
+                      <canvas id="captcha" class="white-text">captcha text</canvas>
+                      <input id="textBox" type="text" name="text" required placeholder="Enter the captcha">
+                      <div id="buttons">
+                        <input id="submitButton" type="button" value="submit">
+                        <button id="refreshButton" type="button">Refresh</button>
+                      </div>
+                      <span id="output"></span>
                     </div>
-                    <span id="output"></span>
+                  </div>
+                  <script src="cap.js"></script>
+                  <div class="col-lg-12 mt-5">
+                    <fieldset>
+                      <center><button type="submit" id="form-submit" name="submit" class="btn btn-outline-light contact-btn mt-4" />
+                        Send Review
+                        </button></center>
+                    </fieldset>
                   </div>
                 </div>
-                <script src="./cap.js"></script>
-                <div class="col-lg-12 mt-5">
-                  <fieldset>
-                    <center><button type="submit" id="form-submit" name="submit"
-                        class="btn btn-outline-light contact-btn mt-4" />
-                      Send Review
-                      </button></center>
-                  </fieldset>
-                </div>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  <?php
+  } else {
+  ?>
+   
+    <div class="container pt-4 text-center" style="margin-top:4%;
+  margin-bottom:4%;">
+      <h1 class="text-success">Thank you!!</h1>
+      <div class="container dodger-blue success-msg mt-4">
+        <h2>We’d just like to thank you for taking the time to write this review.Every bit of feedback like this does so much to help us out!</h2>
+      </div>
+    </div>
+  <?php
+   }
+  ?>
+
 
 
   <!--footers-->
@@ -486,10 +503,8 @@
             <a href="https://www.facebook.com/abcinfomediapvtltd/"><i class="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/abc_infomedia"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/in/abcinfomedia/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.youtube.com/channel/UCa5hWmytEVKaeyqI_jpgAlw?view_as=subscriber"><i
-                class="fab fa-youtube"></i></a>
-            <a href="https://in.pinterest.com/abcinfomediapvtltd/?autologin=true"><i
-                class="fab fa-pinterest"></i></a><br><br>
+            <a href="https://www.youtube.com/channel/UCa5hWmytEVKaeyqI_jpgAlw?view_as=subscriber"><i class="fab fa-youtube"></i></a>
+            <a href="https://in.pinterest.com/abcinfomediapvtltd/?autologin=true"><i class="fab fa-pinterest"></i></a><br><br>
 
           </div>
         </div>
@@ -507,7 +522,7 @@
         <div class="footer-col">
           <h4>Quick Links</h4>
           <ul>
-            <li><a href="./index.html">Home</a></li><br>
+            <li><a href="./index.php">Home</a></li><br>
             <li><a href="./About Us/about-us.html">About Us</a></li><br>
             <li><a href="./Services/ABC infomedia/Servies.html">Our Services</a></li><br>
             <li><a href="./contact.html">Contact Us</a></li><br>
@@ -534,10 +549,12 @@
     </center>
   </footer>
   <a href="#" class="cd-top text-replace js-cd-top"><i style="color:white;" class="fas fa-chevron-up"></i></a>
-<script src="util.js"></script>
+  <script src="util.js"></script>
   <script src="main.js"></script>
   <!--footers ends here-->
   <script src="./scripts.js"></script>
 </body>
 
 </html>
+
+
