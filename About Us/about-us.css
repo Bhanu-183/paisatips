@@ -1,5 +1,5 @@
                             /*Top Header */
-body{
+body,html{
     margin:0;
     padding:0;
     overflow-x: hidden;
@@ -578,8 +578,8 @@ blockquote
 } 
 .testimonial{
     text-align: center;
-
 }
+
 .testimonial .pic{
     width: 120px;
     height: 120px;
@@ -638,8 +638,16 @@ blockquote
 @media (min-width:770px){
 	.test-container{
 		
-		width:100%;
+		width:67%;
 		margin-right:0px;
+	}
+	 .test-container .h2-style{
+	padding-left: 70px;
+	}
+}
+@media (max-width:770px){
+	.test-container .h2-style{
+		text-align: center;
 	}
 }
 

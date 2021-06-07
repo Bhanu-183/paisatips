@@ -1,5 +1,3 @@
-
-
 <html lang="en">
 
 <head>
@@ -24,7 +22,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
 
-   <link rel="stylesheet" href="./Assets/CSS/style.css" />
+  <link rel="stylesheet" href="./Assets/CSS/style.css" />
   <script src="https://kit.fontawesome.com/0f1f570846.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="./Captcha/Captcha/cap.css">
@@ -391,8 +389,23 @@
     <br>
   </div>
 
-<?php  
-  if ($_COOKIE['Sendmail'] == false ) {
+  <?php
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $to = "bhanukrishnaprasad3333@gmail.com";
+    $from = $_POST['email'];
+    $subject = 'Service Review';
+    $name = $_POST['name'];
+    $number = $_POST['number'];
+    $star = $_POST['star'];
+    $message = " Name: " . $name . "\n Number: " . $number . "\nStar:" . $star . "\nReview:" . "\n" . $_POST['review'];
+    $headers = "From:" . $from;
+    "From:" . $to;
+    $mail_status =  mail($to, $subject, $message, $headers);
+    session_start();
+    $_COOKIE['flag'] = true;
+  }
+  session_start();
+  if ($_COOKIE['flag'] != true) {
   ?>
     <div class="container-fluid review">
       <div class="container">
@@ -404,7 +417,7 @@
           </div>
           <div class="col-md-12 review-form">
             <div>
-              <form id="review" action="send-review.php" method="POST">
+              <form id="review" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
                 <div class="row">
 
 
@@ -456,7 +469,7 @@
                       <span id="output"></span>
                     </div>
                   </div>
-                  <script src="cap.js"></script>
+                  <script src="./cap.js"></script>
                   <div class="col-lg-12 mt-5">
                     <fieldset>
                       <center><button type="submit" id="form-submit" name="submit" class="btn btn-outline-light contact-btn mt-4" />
@@ -474,16 +487,22 @@
   <?php
   } else {
   ?>
-   
+    <script>
+      swal({
+        title: "Your review has been sent!!",
+        text: "Thank you for your response",
+        type: "success"
+      });
+    </script>
     <div class="container pt-4 text-center" style="margin-top:4%;
   margin-bottom:4%;">
-      <h1 class="text-success">Thank you!!</h1>
-      <div class="container dodger-blue success-msg mt-4">
+      <h1 class="text-success">Your review has been sent</h1>
+      <div class="container dodger-blue success-msg mt-4" style="padding: 25px;border: 2px solid #1e90ff;border-radius: 10px;">
         <h2>We’d just like to thank you for taking the time to write this review.Every bit of feedback like this does so much to help us out!</h2>
       </div>
     </div>
   <?php
-   }
+  }
   ?>
 
 
@@ -545,7 +564,8 @@
       </div>
     </div>
     <center>
-      <p class="white-text">Copyright © 2020 PAISA TIPS Co., Ltd. -</p>
+      <p class="white-text" style="color: white;">Copyright © 2021 ABC INFOMEDIA -</p>
+      <a href="./team.html" style="text-decoration:none;color:white">MEET THE DEVELOPERS TEAM!!</a>
     </center>
   </footer>
   <a href="#" class="cd-top text-replace js-cd-top"><i style="color:white;" class="fas fa-chevron-up"></i></a>
@@ -556,5 +576,3 @@
 </body>
 
 </html>
-
-
