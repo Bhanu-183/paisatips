@@ -400,6 +400,7 @@ header .navbar {
 
 
   .review-rating {
+	  margin-left: 25px;
     width: 100%;
     unicode-bidi: bidi-override;
     direction: rtl;
@@ -407,15 +408,19 @@ header .navbar {
   }
 
   .review-rating>label {
-    font-size: 45px;
-    float: right;
+    font-size: 45px;	
     display: inline;
     padding: 0;
-    margin: 5px;
     position: relative;
     width: 27px;
     cursor: pointer;
     color: aliceblue;
+  }
+
+  .review-rating input{
+	 
+    float: right;
+   
   }
 
   .review-rating>label:hover,
@@ -517,7 +522,7 @@ ul {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
+  color: #1e90ff;
   transition: all 0.5s ease;
 }
 .footer-col .social-icons a:hover {
@@ -592,7 +597,15 @@ ul {
     max-width: 33.333333%;
   }
 }
+
+@media (max-width: 450px) {
+  .review-rating>label {
+    font-size: 29px;}
+  }
+
 @media (max-width: 768px) {
+ 
+
   .sub-header {
     display: none;
   }

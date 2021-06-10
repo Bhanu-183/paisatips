@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./Assets/CSS/marketstyle.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://kit.fontawesome.com/0f1f570846.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -40,6 +41,25 @@
 		margin-top: 5%;
 		margin-bottom: 3%;
 	}
+
+	.form{
+		width: 100%;
+		   padding: 0px 0px 30px 20px;
+	}
+.form input{
+	margin:10px;
+	width:100%;
+}	
+.w3-display-topright {
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    font-size: 30px;
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #1e90ff!important;
+}
 </style>
 
 <body>
@@ -114,10 +134,58 @@
 					<h3 class="mySlides-text">Share Market</h3>
 					<h3 class="mySlides-text">Mutual Funds</h3><br>
 					<div class="contain">
-						<a href="" class="button-main">Start Investing</a>
+						 <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" style="border-radius: 8px; font-size: 20px; ">Start Investing</button>
+
 					</div>
 				</div>
+				<div id="id01" class="w3-modal">
+								<div class="w3-modal-content w3-animate-top w3-card-4"style="margin-top:50px; width:50%; border-radius:20px; box-shadow: 3px 15px 50px 14px black;">
+								  
+									<span onclick="document.getElementById('id01').style.display='none'" 
+									class="w3-button w3-display-topright">&times;</span>
+									<h2 style="text-align:center; padding-top: 60px;">Consult our Expert</h2>
+								  </header>
+								  <div class="w3-container">
+									<p> 	<div class="container">
+												<div class="row">	
+													 <div class="form" >
+													<form action="send-query.php" method="POST" id="contacts" autocomplete="off">
+														<div class="form-group mt-4">
+														   
+															<input type="text" name="name" class="form-control" id="exampleInputName"
+																aria-describedby="emailHelp" required placeholder="Enter Full name">
+														</div>
+														<div class="form-group">
+															
+															<input type="email" name="email" class="form-control" id="exampleInputEmail1"
+																aria-describedby="emailHelp" required placeholder="Enter Email">
+														   
+														</div>
+														<div class="form-group">
+														   
+															<input type="text" name="subject" class="form-control" id="exampleInputsubject"
+																aria-describedby="emailHelp" required placeholder="Enter Query Topic">
+														</div>
+														<div class="form-group">
+															
+															<input type="text" name="message" class="form-control" id="exampleInputmessage"
+																aria-describedby="emailHelp" required placeholder="Enter your Query">
+														</div>
 
+													   <center><button type="submit" name="submit" class="btn btn-outline-info text-center">Send Query</button></center>
+													</form>
+													</div>
+													</div>
+													</div>
+													</div>
+									</p>
+								   
+								  </div>
+								  
+								</div>
+							  </div>
+
+				
 				<div class="col-md-12">
 					<div class="indian-stock">
 						<h3 class="about">About Indian stock market</h3>

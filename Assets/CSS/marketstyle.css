@@ -406,7 +406,7 @@ background-color:white;
 	margin-bottom: 17px;
     width: 100%;
 	color:black;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -511,10 +511,18 @@ display: inline;
     border-bottom: 2px solid #1e90ff;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 768px){
 	
 .img-responsive{
 width: 100%;
+}
+
+.about-currency
+{
+  font-size: 25px;
+}
+.crpto-about {
+  margin-top: 40px;
 }
 
 .first-content{
@@ -601,7 +609,7 @@ ul {
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
+  color: #1e90ff;
   transition: all 0.5s ease;
 }
 .footer-col .social-icons a:hover {

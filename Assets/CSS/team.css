@@ -6,7 +6,10 @@
 
 * {
     font-family: 'Poppins', sans-serif;
-  color:var(--dark);
+}
+p,h1,h2,h3,h4{
+    color:var(--dark);
+
 }
 .dodger-blue {
   color: var(--blue);
@@ -276,84 +279,11 @@ body
         margin-top:2%
     }
 
-    .team-block
-    {
-        margin-top: 0%;
-        margin-left:50px;
-    }
-    .team-content
-    {
-        font-size:19px;
-        text-align: left;
-    }
-
-    .btn
-    {
-        background-color:var(--blue);
-        color: white;
-        padding:8px 15px 8px 15px;
-        border-radius:20px;
-        box-shadow: var(--blue) 0px 3px 8px;
-        margin-left: auto;
-        margin-right: auto;
-        width:50%;
-        display: block;
-    }
-    .btn:hover
-    {
-        background-color:white;
-        color:var(--blue)
-    }
-    .team-img
-    {
-        border-radius:10px;
-    }
-
-    .flip-card {
-        border-radius: 8px;
-        background-color: transparent;
-        width: 450px;
-        height: 450px;
-        perspective: 1000px;
-    }
-
-.flip-card-inner {
-            border-radius: 8px;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
- border-radius: 8px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  color: white;
-}
-
-.flip-card-back {
-  background-color: rgba(30, 144, 255,0.9);
-  color: white;
-  transform: rotateY(180deg);
-}
+    
 .social {
-  padding: 9px;
-  font-size: 18px;
-  width: 35px;
+  padding: 10px;
+  font-size: 25px;
+  width: 42px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -454,18 +384,18 @@ ul {
   height: 40px;
   width: 40px;
   padding-top: 10px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.2);
   margin-right: 0 10px 10px 0;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
+  color: #1e90ff;
   text-decoration: none;
   transition: all 0.5s ease;
 }
 .footer-col .social-icons a:hover {
-  color: #ffffff;
-  background-color:#24262b ;
+  color: var(--dark);
+  background-color:white;
 }
 @media (max-width: 767px) {
   .footer-col {
@@ -481,30 +411,13 @@ ul {
 }
 
 @media only screen and (max-width:768px) {
-  .pradeep
-{
-  height:211px;
-}
-.tisha
-{
-  height:218px;
-}   
-.kevan
-{
-  height:251px;
-}  
-
-
-.manual-ul
-    {
-        margin-left: 28%;
-    }
-    .manual-ul-2
+  .manual-ul
   {
-    height: 3px;
-    background-color: #1e90ff;
-    width: 80px;
-    margin-left:5%;
+    margin-left: 30%;
+  }
+  .img-container
+  {
+    margin-top: 10px;
   }
     .main-heading
     {
@@ -521,26 +434,11 @@ ul {
     .underline:hover:after {
 		width: 53%;
     }
-    .img-container
-    {
-        margin-top:1%;
-    }
+   
 
     .team-container
     {
         margin-top:12%;
     }
-    .team-block{
-      margin-top: 5%;
-        margin-left: 0px;
-    }
-    .bhanu{
-        height:290px;
-        width:290px;
-    }
-    .profile-content
-    {
-        margin-top:30%;
-        margin-left:10px;
-    }
+  
 }

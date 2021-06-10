@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -160,32 +159,21 @@
                   <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message"
                     required></textarea>
                 </div>
-
-                <div class="center container mt-4" style="margin-bottom:30px;">
+                <div class="center container mt-4" style="position:relative;">
                   <h2 id="captchaHeading" class="text-center mt-4">Captcha Validation</h2>
                   <div id="captchaBackground">
-                    <canvas id="captcha" class="white-text">captcha text</canvas>
-                    <input id="textBox" type="text" name="text" required>
-                    <div id="buttons">
-                      <form id="captch">
-                        <button id="submitButton" type="button" value="Submit">Submit</button>
-                        <button id="refreshButton" type="button">Refresh</button>
-                      </form>
-                    </div>
-                    <span id="output" class="white-text"></span>
+                    <canvas id="captcha">captcha text</canvas>
+                    <input  type="text" id="textBox" name="text" placeholder="Enter the captcha" required> 
+                   <button id="refreshButton" type="button"><i class="fa fa-refresh"></i></button>
+                  </div>
+                  <span id="output"></span>
+
+                  <div id="buttons">
+                    <input type="submit" id="submitButton" name="submit" onclick="myFunction()" class="btn btn-outline-light contact-btn mt-4" value="Submit" />
                   </div>
                 </div>
-                <script src="cap.js"></script>
-
-
-                <div class="col-lg-12 mt-5">
-                  <fieldset>
-                    <center><button type="submit" id="form-submit" name="submit"
-                        class="btn btn-outline-light contact-btn mt-4">
-                        Send Message
-                      </button></center>
-                  </fieldset>
-                </div>
+                <script src="./cap.js"></script>
+                
               </div>
             </form>
           </div>
@@ -275,7 +263,8 @@
       </div>
       <center>
         <p class="white-text" style="color: white;">Copyright © 2021 ABC INFOMEDIA -</p>
-        <a href="./team.html" style="text-decoration:none;color:white">MEET THE DEVELOPERS TEAM!!</a>
+        <a href="./team.html" style="text-decoration:none;color:#1e90ff;font-size:large">MEET THE DEVELOPERS
+          TEAM!!</a>
       </center>
     </div>
   </footer>

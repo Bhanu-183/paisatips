@@ -1,29 +1,26 @@
 #captchaBackground {
-    height: 250px;
-    width: 400px;
+    height: 130px;
+    width: 339px;
     background-color: white;
     display: flex;
-    border-radius:10px;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   }
+}
    #captchaHeading {
     color: white;
+	font-size:19px;
    }
    #captcha {
-    height: 80%;
-    width: 80%;
-    font-size: 30px;
+    top: 25px;
+    position: absolute;
+    height: 127px;
+    width: 220px;
+    font-size: 33px;
     letter-spacing: 3px;
-    margin: auto;
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
     color: #1e90ff;
-   }
+}
 
    .center {
     display: flex;
@@ -33,37 +30,70 @@
    #submitButton {
     margin-top: 2em;
     margin-bottom: 2em;
-    background-color: #005f99;
-    color: white;
+    background-color: white;
+    color: #1e90ff;
     border: 0px;
-    font-size:13px;
+    font-size:20px;
     font-weight: bold;
-    height: 30px; 
-    width: 70px; 
+    height: 45px; 
+    width: 150px; 
     border-radius: 6px;
     cursor: pointer;
    }
-   #textBox
-   {
-     border: 1px solid #1e90ff;
-     border-radius:5px;
-     margin-top: -20px;
-     padding: 5px;
-   }
+   #textBox {
+    position: absolute;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    padding: 5px;
+    top: 118px;
+    width:20%;
+}
    #refreshButton {
+    position: absolute;
     background-color: #005f99;
     border: 0px;
     color: white;
     font-weight: bold;
-    font-size:13px;
-    height: 30px; 
-    width: 70px; 
+    font-size: 19px;
+    height: 40px;
+    width: 55px;
     border-radius: 6px;
-        cursor: pointer;
-
-   }
+    cursor: pointer;
+    top: 21%;
+    left: 57%;
+}
    #output{
-       margin-top:10%;
+       margin-top:2%;
        font-size:20px;
+       color:white;
    }
-   
+   @media only screen and (max-width:992px) {
+    #refreshButton {
+		width: 45px;
+    font-size: 14px;
+    height: 37px;
+    left: 61%;
+	}
+   }
+   @media only screen and (max-width:768px) {
+    #captchaBackground
+    {
+      width: 300px;
+    }
+    #textBox
+    {
+      width: 170px;
+    }
+	#refreshButton {
+		left:64%;
+	}
+   }
+
+   @media only screen and (max-width:500px){
+    #refreshButton {
+		width: 39px;
+    font-size: 14px;
+    height: 37px;
+    left: 75%;
+	}
+   }

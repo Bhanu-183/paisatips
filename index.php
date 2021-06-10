@@ -390,6 +390,7 @@
   </div>
 
   <?php
+  error_reporting(0);
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "bhanukrishnaprasad3333@gmail.com";
     $from = $_POST['email'];
@@ -401,12 +402,46 @@
     $headers = "From:" . $from;
     "From:" . $to;
     $mail_status =  mail($to, $subject, $message, $headers);
-    session_start();
+ 
     $_COOKIE['flag'] = true;
   }
-  session_start();
+
   if ($_COOKIE['flag'] != true) {
   ?>
+
+
+      
+  <script> 
+
+function myFunction() {
+  var inpObj = document.getElementById("star1");
+  if (!inpObj.checkValidity()) {
+    document.getElementById("numloc").innerHTML = "*Please select one of these Stars";
+  }
+  
+  var inObj = document.getElementById("name");
+  if (!inObj.checkValidity()) {
+    document.getElementById("numname").innerHTML = "Please Enter Name*";
+  }
+  
+  var Email = document.getElementById("email");
+  if (!Email.checkValidity()) {
+    document.getElementById("numemail").innerHTML = "Please Enter Email*";
+  }
+  
+  var Num = document.getElementById("number");
+  if (!Num.checkValidity()) {
+    document.getElementById("numnumber").innerHTML = "Please Enter Number*";
+  }
+  var revi = document.getElementById("message");
+  if (!revi.checkValidity()) {
+    document.getElementById("numreview").innerHTML = "Please Enter Review*";
+  }
+}
+</script>
+  
+  
+  
     <div class="container-fluid review">
       <div class="container">
         <div class="row">
@@ -416,16 +451,15 @@
             </div>
           </div>
           <div class="col-md-12 review-form">
-            <div>
-              <form id="review" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" autocomplete="off">
+            
+              <form id="review" name="myForm" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>"  method="POST" autocomplete="off">
                 <div class="row">
 
-
                   <div class="review-rating">
-                    <h6 class="starRate-text">Rate this</h6>
-                    <p style="font-size:15px;color:red;font-weight: bold;text-align: right;">*Required</p>
+					<span id="numloc" style="float:left; color:red;	font-weight:bold;"></span> <br>
                     <input id="star5" name="star" type="radio" value="5" class="radio-btn hide">
                     <label for="star5">☆</label>
+					
                     <input id="star4" name="star" type="radio" value="4" class="radio-btn hide" />
                     <label for="star4">☆</label>
                     <input id="star3" name="star" type="radio" value="3" class="radio-btn hide" />
@@ -434,49 +468,55 @@
                     <label for="star2">☆</label>
                     <input id="star1" name="star" type="radio" value="1" class="radio-btn hide" required>
                     <label for="star1">☆</label>
+					
+					
                   </div>
 
+				  
+				  
 
-                  <div class="col-lg-4 col-md-12 col-sm-12">
+                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text" class="form-control mt-4" id="name" placeholder="Full Name" required="" />
+                      <input name="name" type="text" class="form-control mt-4" id="name" placeholder="Full Name"  required/>
+					  <span id="numname" style="float:left; color:red;	font-weight:bold;"></span>
                     </fieldset>
                   </div>
                   <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
                     <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="" />
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required>
+					  <span id="numemail" style="float:left; color:red;	font-weight:bold;"></span>
                     </fieldset>
                   </div>
                   <div class="col-lg-4 col-md-12 col-sm-12 mt-4">
                     <fieldset>
-                      <input name="number" type="text" class="form-control" id="number" placeholder="Number" required="" />
+                      <input name="number" type="text" class="form-control" id="number" placeholder="Number" required>
+					  <span id="numnumber" style="float:left; color:red;	font-weight:bold;"></span>
+					  
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="review" rows="6" class="form-control mt-4" id="message" placeholder="Your Review" required=""></textarea>
+                      <textarea name="review" type="text" class="form-control" id="message" placeholder="Your Review" required></textarea>
+                      <span id="numreview" style="float:left; color:red;	font-weight:bold;"></span>
                     </fieldset>
                   </div>
-                  <div class="center container mt-4">
+
+
+                   <div class="center container mt-4" style="position:relative;">
                     <h2 id="captchaHeading" class="text-center mt-4">Captcha Validation</h2>
                     <div id="captchaBackground">
-                      <canvas id="captcha" class="white-text">captcha text</canvas>
-                      <input id="textBox" type="text" name="text" required placeholder="Enter the captcha">
-                      <div id="buttons">
-                        <input id="submitButton" type="button" value="submit">
-                        <button id="refreshButton" type="button">Refresh</button>
-                      </div>
-                      <span id="output"></span>
+                      <canvas id="captcha">captcha text</canvas>
+                      <input  type="text" id="textBox" name="text" placeholder="Enter the captcha" required> 
+					           <button id="refreshButton" type="button"><i class="fa fa-refresh"></i></button>
+                    </div>
+                    <span id="output"></span>
+
+                    <div id="buttons">
+                      <input type="submit" id="submitButton" name="submit" onclick="myFunction()" class="btn btn-outline-light contact-btn mt-4" value="Submit" />
                     </div>
                   </div>
                   <script src="./cap.js"></script>
-                  <div class="col-lg-12 mt-5">
-                    <fieldset>
-                      <center><button type="submit" id="form-submit" name="submit" class="btn btn-outline-light contact-btn mt-4" />
-                        Send Review
-                        </button></center>
-                    </fieldset>
-                  </div>
+
                 </div>
               </form>
             </div>
@@ -565,7 +605,8 @@
     </div>
     <center>
       <p class="white-text" style="color: white;">Copyright © 2021 ABC INFOMEDIA -</p>
-      <a href="./team.html" style="text-decoration:none;color:white">MEET THE DEVELOPERS TEAM!!</a>
+      <a href="./team.html" style="text-decoration:none;color:#1e90ff;font-size:large">MEET THE DEVELOPERS
+        TEAM!!</a>
     </center>
   </footer>
   <a href="#" class="cd-top text-replace js-cd-top"><i style="color:white;" class="fas fa-chevron-up"></i></a>

@@ -50,17 +50,17 @@ body{
     margin: 5px auto;
   }
   
-  ul li a {
+  .sub-header ul li a {
     color: white;
   }
   .right-icons li a:hover {
     color: #d3d3d3;
     opacity: 1.5;
   }
-  ul {
+  .sub-header ul {
     list-style: none;
   }
-  ul li {
+  .sub-header ul li {
     display: inline;
   }
   .font-awesome {
@@ -85,7 +85,6 @@ body{
     }
   }
   .row {
-    display: -ms-flexbox;
     display: flex;
   
     /* flex-wrap: wrap; */
@@ -248,6 +247,10 @@ body{
     right:0;
     padding-bottom:90px;
   }
+  .carousel-item p{
+    font-size:19px;
+  }
+
   .overlay-image{
     position:absolute;
     bottom:0;
@@ -258,6 +261,14 @@ body{
     background-size: cover;
     opacity:0.5;
   }
+  @media (max-width:719px){
+  .carousel-inner .container{
+    margin:auto 10px;
+  }
+  .carousel-inner h1{
+    font-size: 25px;
+  }
+}
                                               /* Facilities */
 #facilities{
   padding:50px 0 30px 0; 
@@ -339,16 +350,17 @@ body{
   background-color: white;
   color:#1e90ff;
 }
+
 @media (max-width:1000px){
   .info-image{
     max-width:100%;
     height:auto;
   }
-  .info-p{
-    max-width:100%;
-  }
   .info{
     margin:30px 0 20px 20px;
+  }
+  .info .internal-components{
+    width:85%;
   }
 }
 
@@ -409,12 +421,15 @@ body{
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: #ffffff;
+	color: #1e90ff;
 	transition: all 0.5s ease;
 }
 .footer-col .social-icons a:hover{
 	color: #24262b; 
 	background-color: #ffffff;
+}
+.footer-col ul li{
+  list-style: none;
 }
 @media (max-width: 767px) {
 .footer-col {

@@ -71,7 +71,7 @@
 							<a class="nav-link" href="./About Us/about-us.html">About Us</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="./Servies.html">Our Services</a>
+							<a class="nav-link" href="./Services/ABC infomedia/Servies.html">Our Services</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html">Contact Us</a>
@@ -332,8 +332,8 @@
 						<h4>Quick Links</h4>
 						<ul>
 							<li><a href="./index.php">Home</a></li><br>
-							<li><a href="#">About Us</a></li><br>
-							<li><a href="./Servies.html">Our Services</a></li><br>
+							<li><a href="./About Us/about-us.html">About Us</a></li><br>
+							<li><a href="./Services/ABC infomedia/Servies.html">Our Services</a></li><br>
 							<li><a href="./contact.html">Contact Us</a></li><br>
 							<li><a href="./blog.html">Blogs</a></li><br>
 
@@ -343,17 +343,20 @@
 					<div class="footer-col">
 						<h4>FAQ</h4>
 						<ul>
-							<li><a href="./FAQ.html">Best ways to separate business & personal finances?</a></li><br>
-							<li><a href="./FAQ.html">What makes you different than others?</a></li><br>
-							<li><a href="./FAQ.html">What does the monthly accounting process look like?</a></li><br>
-							<li><a href="./FAQ.html">What accounting system do you use?</a></li><br>
+							<li><a href="./Services/ABC infomedia/FAQ.html">Best ways to separate business & personal finances?</a></li>
+							<br>
+							<li><a href="./Services/ABC infomedia/FAQ.html">What makes you different than others?</a></li><br>
+							<li><a href="./Services/ABC infomedia/FAQ.html">What does the monthly accounting process look like?</a></li>
+							<br>
+							<li><a href="./Services/ABC infomedia/FAQ.html">What accounting system do you use?</a></li><br>
 						</ul>
 					</div>
 				</div>
 			</div>
 			<center>
 				<p class="white-text" style="color: white;">Copyright © 2021 ABC INFOMEDIA -</p>
-				<a href="./team.html" style="text-decoration:none;color:white">MEET THE DEVELOPERS TEAM!!</a>
+				<a href="./team.html" style="text-decoration:none;color:#1e90ff;font-size:large">MEET THE DEVELOPERS
+					TEAM!!</a>
 			</center>
 		</footer>
 		<!--footers ends here-->
