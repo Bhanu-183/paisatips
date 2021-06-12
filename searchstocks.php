@@ -72,16 +72,15 @@ function test_input($data)
 
 <body>
     <div class="container-fluid">
-        <div class="container filter-div" >
+        <div class="container filter-div">
             <h2 class="text-center">Search for your stock by it's ticker</h2>
         </div>
     </div>
-    <div class="conatiner filter-btn" style="position:relative;">
-        <button class="btn btn-success" onclick="filter()" >Filter </button>
-    </div>
+
+    <button class="btn btn-success filter-btn" onclick="filter()">Filter </button>
 
 
-    <ul id="myUL" class="list-group mt-5">
+    <ul id="myUL" class="list-group">
 
         <form method="POST" autocomplete="off" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
             <div class="conatianer">

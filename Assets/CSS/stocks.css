@@ -5,7 +5,7 @@ body,
 
         .IT,.Products,.Automobile,.Steel,.Energy,.Finance{
             display: none;
-            margin-left: 35%;
+            margin-left: 15%;
             text-align: left;
             border: 1px solid black;
             margin-bottom: 10px;
@@ -52,7 +52,7 @@ body,
 
         .filter-container {
             display: none;
-            margin-left: 31%;
+            margin-left: 25%;
         }
 
         .btn-success {
@@ -72,21 +72,30 @@ body,
             border: 1px solid #ced4da;
             border-radius: .25rem;
             transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-            margin-left: 30%;
+            margin-left: 24%;
         }
-
+        .filter-btn
+        {
+            position: relative;
+            width:70px;
+        }
         @media only screen and (max-width:768px) {
             .IT,.Products,.Automobile,.Steel,.Energy,.Finance{
-                margin-left: 30%;
-                width: 100%;
+                margin-left: 9%;
+                width: 90%;
             }
             .form-control{
-                width:50%
+                width:65%
             }
-           
-        }
-        @media only screen and (max-width: 568px){
-.filter-btn {
-   
-}
+            .filter-container {
+                margin-left: 10%;
+            }
+            .list-group
+            {
+                margin-top:3rem;
+            }
+            .filter-btn
+            {
+                margin-left:-40%;
+            }
         }
