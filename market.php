@@ -42,24 +42,27 @@
 		margin-bottom: 3%;
 	}
 
-	.form{
+	.form {
 		width: 100%;
-		   padding: 0px 0px 30px 20px;
+		padding: 0px 0px 30px 20px;
 	}
-.form input{
-	margin:10px;
-	width:100%;
-}	
-.w3-display-topright {
-    position: absolute;
-    right: 10px;
-    top: 3px;
-    font-size: 30px;
-}
-.w3-button:hover {
-    color: #000!important;
-    background-color: #1e90ff!important;
-}
+
+	.form input {
+		margin: 10px;
+		width: 100%;
+	}
+
+	.w3-display-topright {
+		position: absolute;
+		right: 10px;
+		top: 3px;
+		font-size: 30px;
+	}
+
+	.w3-button:hover {
+		color: #000 !important;
+		background-color: #1e90ff !important;
+	}
 </style>
 
 <body>
@@ -106,7 +109,7 @@
 							<a class="nav-link" href="./About Us/about-us.html">About Us</a>
 						</li>
 						<li class="nav-item active">
-							<a class="nav-link" href="./Servies.html">Our Services</a>
+							<a class="nav-link" href="./Services/ABC infomedia/Servies.html">Our Services</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.html">Contact Us</a>
@@ -134,67 +137,63 @@
 					<h3 class="mySlides-text">Share Market</h3>
 					<h3 class="mySlides-text">Mutual Funds</h3><br>
 					<div class="contain">
-						 <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" style="border-radius: 8px; font-size: 20px; ">Start Investing</button>
+						<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" style="border-radius: 8px; font-size: 20px; ">Start Investing</button>
 
 					</div>
 				</div>
 				<div id="id01" class="w3-modal">
-								<div class="w3-modal-content w3-animate-top w3-card-4"style="margin-top:50px; width:50%; border-radius:20px; box-shadow: 3px 15px 50px 14px black;">
-								  
-									<span onclick="document.getElementById('id01').style.display='none'" 
-									class="w3-button w3-display-topright">&times;</span>
-									<h2 style="text-align:center; padding-top: 60px;">Consult our Expert</h2>
-								  </header>
-								  <div class="w3-container">
-									<p> 	<div class="container">
-												<div class="row">	
-													 <div class="form" >
-													<form action="send-query.php" method="POST" id="contacts" autocomplete="off">
-														<div class="form-group mt-4">
-														   
-															<input type="text" name="name" class="form-control" id="exampleInputName"
-																aria-describedby="emailHelp" required placeholder="Enter Full name">
-														</div>
-														<div class="form-group">
-															
-															<input type="email" name="email" class="form-control" id="exampleInputEmail1"
-																aria-describedby="emailHelp" required placeholder="Enter Email">
-														   
-														</div>
-														<div class="form-group">
-														   
-															<input type="text" name="subject" class="form-control" id="exampleInputsubject"
-																aria-describedby="emailHelp" required placeholder="Enter Query Topic">
-														</div>
-														<div class="form-group">
-															
-															<input type="text" name="message" class="form-control" id="exampleInputmessage"
-																aria-describedby="emailHelp" required placeholder="Enter your Query">
-														</div>
+					<div class="w3-modal-content w3-animate-top w3-card-4" style="margin-top:50px; width:50%; border-radius:20px; box-shadow: 3px 15px 50px 14px black;">
 
-													   <center><button type="submit" name="submit" class="btn btn-outline-info text-center">Send Query</button></center>
-													</form>
-													</div>
-													</div>
-													</div>
-													</div>
-									</p>
-								   
-								  </div>
-								  
+						<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+						<h2 style="text-align:center; padding-top: 60px;">Consult our Expert</h2>
+						</header>
+						<div class="w3-container">
+							<p>
+							<div class="container">
+								<div class="row">
+									<div class="form">
+										<form action="send-query.php" method="POST" id="contacts" autocomplete="off">
+											<div class="form-group mt-4">
+
+												<input type="text" name="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" required placeholder="Enter Full name">
+											</div>
+											<div class="form-group">
+
+												<input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Enter Email">
+
+											</div>
+											<div class="form-group">
+
+												<input type="text" name="subject" class="form-control" id="exampleInputsubject" aria-describedby="emailHelp" required placeholder="Enter Query Topic">
+											</div>
+											<div class="form-group">
+
+												<input type="text" name="message" class="form-control" id="exampleInputmessage" aria-describedby="emailHelp" required placeholder="Enter your Query">
+											</div>
+
+											<center><button type="submit" name="submit" class="btn btn-outline-info text-center">Send Query</button></center>
+										</form>
+									</div>
 								</div>
-							  </div>
+							</div>
+						</div>
+						</p>
 
-				
-				<div class="col-md-12">
-					<div class="indian-stock">
-						<h3 class="about">About Indian stock market</h3>
-						<p style="font-size: 18px;">The Indian stock market is dominated by the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE) which are the world's 11th & 12th largest exchange, having a market capitalization of 1.83 Trillion Dollars & 1.41 Trillion Dollars respectively. Akin to Wall Street, the Bombay Stock Exchange located at Dalal Street never sleeps. NSE's flagship index, the NIFTY 50, is used extensively by investors in India and around the world as a barometer of the Indian capital markets.</p>
 					</div>
-				</div>
 
+				</div>
 			</div>
+
+
+			<div class="col-md-12">
+				<div class="indian-stock">
+					<h3 class="about">About Indian stock market</h3>
+					<p style="font-size: 18px;">The Indian stock market is dominated by the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE) which are the world's 11th & 12th largest exchange, having a market capitalization of 1.83 Trillion Dollars & 1.41 Trillion Dollars respectively. Akin to Wall Street, the Bombay Stock Exchange located at Dalal Street never sleeps. NSE's flagship index, the NIFTY 50, is used extensively by investors in India and around the world as a barometer of the Indian capital markets.</p>
+				</div>
+			</div>
+
 		</div>
+	</div>
 	</div>
 
 	<div class="main-content">
